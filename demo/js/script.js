@@ -21,7 +21,7 @@ var WeatherRadar = L.tileLayer.wms("http://nowcoast.noaa.gov/arcgis/services/now
 }).addTo(map);
 
 var Warnings = L.tileLayer.wms("http://nowcoast.noaa.gov/arcgis/services/nowcoast/wwa_meteoceanhydro_longduration_hazards_time/MapServer/WMSServer", {
-    layers: '1',
+    layers: '11',
     format: 'image/png',
     transparent: true,
     attribution: "NOAA",
